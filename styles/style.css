@@ -1,0 +1,50 @@
+/* site wide css  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Common classes */
+
+.com-container {
+  max-width: 1360px;
+  margin: auto;
+}
+
+.btn {
+  border-radius: 4px;
+  background-color: #30b868;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: none;
+}
+
+/* Header section starts here */
+
+header {
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  /* border: 2px solid black; */
+  padding: 16px 120px;
+  align-items: center;
+}
+
+.link-parent {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+}
+
+.link-parent a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(0, 0, 1);
+}
