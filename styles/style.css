@@ -1,7 +1,17 @@
+/* Inter font Integration -gapi */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
 /* site wide css  */
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background: rgba(251, 251, 251, 1);
 }
 
 /* Common classes */
@@ -19,9 +29,21 @@
   font-weight: 600;
   padding: 12px 16px;
   border: none;
+  cursor: pointer;
 }
 
-/* Header section starts here */
+.btn2 {
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Nav section starts here */
 
 header {
   background-color: #ffffff;
@@ -47,4 +69,163 @@ nav {
   font-size: 16px;
   font-weight: 500;
   color: rgb(0, 0, 1);
+}
+
+/* hero section starts here */
+
+.hero-parent {
+  max-width: 1600px;
+  height: 674px;
+  border: 2px solid black;
+  background-image: url(../assets/hero-bg.png);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-parent #p1 {
+  color: #30b868;
+  font-size: 16px;
+  font-weight: 500;
+
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+.hero-parent #p2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.hero-parent #p3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.hero-content {
+  /* margin: 0 auto; */
+  /* margin-top: 50px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.hero-btns .btn2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-btns .btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+}
+
+/* Note section 1 started */
+.notesection-parent {
+}
+
+.note-cards-parent {
+  display: flex;
+  gap: 24px;
+  margin: 20px 0;
+}
+
+.notes-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin: 100px 0;
+}
+
+.note-card:hover {
+  color: rgba(255, 255, 255, 1);
+
+  background-color: #30b868;
+}
+
+.note-card {
+  background-color: rgba(255, 255, 255, 1);
+
+  max-width: 322px;
+  height: 300px;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.note-card h2 {
+  text-transform: capitalize;
+}
+.note-card p {
+  text-transform: capitalize;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: rgba(98, 115, 130, 1);
+}
+
+.notesection-parent .notes-heading h1 {
+  font-size: 48px;
+  font-weight: 700;
+  align-items: end;
+  color: rgba(0, 25, 49, 1);
+  text-transform: capitalize;
+}
+.notesection-parent .notes-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(98, 115, 130, 1);
+}
+
+.redcircle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: rgba(249, 85, 85, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redcircle img {
+  width: 32px;
+  height: 32px;
 }
