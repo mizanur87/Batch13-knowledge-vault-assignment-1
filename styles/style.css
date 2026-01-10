@@ -10,9 +10,9 @@
   padding: 0;
 }
 
-body {
+/* body {
   background: rgba(251, 251, 251, 1);
-}
+} */
 
 /* Common classes */
 
@@ -83,6 +83,15 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.h-button {
+  background-color: white;
+  border: 5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1000px;
 }
 
 .hero-parent #p1 {
@@ -306,10 +315,14 @@ nav {
 /* Early Access section starts here */
 
 .early-access-head {
-  background-color: rgba(255, 255, 255, 1);
+  /* background-color: rgba(255, 255, 255, 1); */
   max-width: 1360px;
   height: 197.6px;
   margin: 0 auto;
+  /* padding-left: 120px;
+  padding-right: 120px; */
+  padding-bottom: 120px;
+  padding-top: 0;
 }
 
 .early-access-parent {
@@ -359,4 +372,79 @@ nav {
   font-size: 16px;
   font-weight: 400;
   color: rgba(98, 115, 130, 1);
+}
+
+/* Footer section stars here */
+
+footer {
+  height: 375px;
+  margin-top: 150px;
+  background-color: rgba(0, 25, 49, 1);
+  /* padding: 120px 120px 30px 120px; */
+}
+
+.footer-logo-div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1360px;
+  margin: 0px auto;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 100px;
+  /* margin: 120px 120px 80px 120px; */
+}
+
+.social-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.social-text p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+}
+
+.social-icons img {
+  max-width: 20px;
+  height: 20px;
+  gap: 10px;
+}
+
+.theclosingline {
+  width: 1360px;
+  margin: 80px auto 0px;
+  height: 0;
+  border: 1px solid rgba(229, 231, 235, 1);
+  opacity: 0.2;
+  padding-left: -100px;
+}
+
+.copyrightsection {
+  max-width: 1360px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px 120px 30px 120px;
+  gap: 30.5px;
+}
+
+.copyright-text p {
+  color: rgba(250, 250, 250, 1);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+.copyright {
+  max-height: 52px;
+  text-align: center;
 }
