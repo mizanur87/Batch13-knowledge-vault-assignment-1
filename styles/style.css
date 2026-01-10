@@ -159,8 +159,6 @@ nav {
 }
 
 /* Note section 1 started */
-.notesection-parent {
-}
 
 .note-cards-parent {
   display: flex;
@@ -176,6 +174,8 @@ nav {
   gap: 16px;
   margin: 100px 0;
 }
+
+/* Adeed a simple colour changing hover */
 
 .note-card:hover {
   color: rgba(255, 255, 255, 1);
